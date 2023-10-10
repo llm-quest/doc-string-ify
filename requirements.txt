@@ -1,0 +1,2 @@
+-e git://github.com/anarchy-ai/LLM-VM.git#egg=llm-vm
+gradio
