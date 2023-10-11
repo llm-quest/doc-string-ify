@@ -11,4 +11,4 @@ COPY ./.env ~/app/.env
 RUN pip install -e git+https://github.com/anarchy-ai/LLM-VM.git@9e73abe4276148c0073b5a463cc1688ed17c13de#egg=llm-vm
 RUN pip install fastapi uvicorn python-dotenv
 COPY . .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host". "0.0.0.0", "--port", "8080"]
